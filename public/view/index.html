@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+       <meta charset="UTF-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <!-- TailwindCss -->
+       <link rel="stylesheet" href="../../css/style.css">
+       <!-- Font Family -->
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+       <!-- end Font Family -->
+       <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+       <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+       <!-- swiper -->
+       <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+       <!-- <style>
+              * {
+                     border: 1px solid red;
+              }
+       </style> -->
+       <title>Beranda | PETA</title>
+</head>
+
+<body>
+       <!-- Navbar -->
+       <nav class="bg-white shadow-2xl fixed-top w-full">
+              <div class="p-2 px-8">
+                     <div class="flex justify-between items-center">
+                            <div class="flex">
+                                   <img class="h-10 mt-2 mr-4" src="../../img/logoPeta.png" alt="">
+                            </div>
+                            <div class="hidden lg:flex">
+                                   <ul class="flex flex-row font-poppins font-normal">
+                                          <li
+                                                 class="mx-2 p-1 rounded hover:bg-cyan-200 transition duration-500 ease-in-out">
+                                                 <a href="../beranda/index.html">Beranda</a>
+                                          </li>
+                                          <li
+                                                 class="mx-2 p-1 rounded hover:bg-cyan-200 transition duration-500 ease-in-out">
+                                                 <a href="../peta/peta.html">Tentang PETA</a>
+                                          </li>
+                                          <li
+                                                 class="mx-2 p-1 rounded hover:bg-cyan-200 transition duration-500 ease-in-out">
+                                                 <a href="../tbc/tbc.html">Tentang TBC</a>
+                                          </li>
+                                          <li
+                                                 class="mx-2 p-1 rounded hover:bg-cyan-200 transition duration-500 ease-in-out">
+                                                 <a href="">Kasus TBC</a>
+                                          </li>
+                                          <li
+                                                 class="mx-2 p-1 rounded hover:bg-cyan-200 transition duration-500 ease-in-out">
+                                                 <a href="">Artikel</a>
+                                          </li>
+                                          <li
+                                                 class="mx-2 p-1 rounded hover:bg-cyan-200 transition duration-500 ease-in-out">
+                                                 <a href="../galeri/galeri.html">Galeri</a>
+                                          </li>
+                                          <li
+                                                 class="mx-2 p-1 rounded hover:bg-cyan-200 transition duration-500 ease-in-out">
+                                                 <a href="">Kontak</a>
+                                          </li>
+                                          <li
+                                                 class="mx-2 text-white p-1 rounded bg-cyan-500 transition duration-500 ease-in-out">
+                                                 <a href="">Penjualan Karya</a>
+                                          </li>
+                                   </ul>
+                            </div>
+                            <!-- Mobile menu button -->
+                            <div class="lg:hidden flex items-center">
+                                   <button class="outline-none mobile-menu-button right-0">
+                                          <svg class=" w-6 h-6 text-gray-500 hover:text-blue-500 " x-show="!showMenu"
+                                                 fill="none" stroke-linecap="round" stroke-linejoin="round"
+                                                 stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+                                                 <path d="M4 6h16M4 12h16M4 18h16"></path>
+                                          </svg>
+                                   </button>
+                            </div>
+                     </div>
+              </div>
+              <!-- mobile menu -->
+              <div class="hidden mobile-menu">
+                     <ul>
+                            <li class="active">
+                                   <a href="../beranda/index.html"
+                                          class="block text-sm px-2 py-4 bg-cyan-200 font-semibold">
+                                          Beranda
+                                   </a>
+                            </li>
+                            <li>
+                                   <a href="../peta/peta.html"
+                                          class="block text-sm px-2 py-4 hover:bg-cyan-200 transition duration-500 ease-in-out">
+                                          Tentang PETA
+                                   </a>
+                            </li>
+                            <li>
+                                   <a href="../tbc/tbc.html"
+                                          class="block text-sm px-2 py-4 hover:bg-cyan-200 transition duration-500 ease-in-out">
+                                          Tentang TBC
+                                   </a>
+                            </li>
+                            <li>
+                                   <a href="#contact"
+                                          class="block text-sm px-2 py-4 hover:bg-cyan-200 transition duration-500 ease-in-out">
+                                          Kasus TBC
+                                   </a>
+                            </li>
+                            <li>
+                                   <a href="#contact"
+                                          class="block text-sm px-2 py-4 hover:bg-cyan-200 transition duration-500 ease-in-out">
+                                          Artikel
+                                   </a>
+                            </li>
+                            <li>
+                                   <a href="#contact"
+                                          class="block text-sm px-2 py-4 hover:bg-cyan-200 transition duration-500 ease-in-out">
+                                          Galeri
+                                   </a>
+                            </li>
+                            <li>
+                                   <a href="#contact"
+                                          class="block text-sm px-2 py-4 hover:bg-cyan-200 transition duration-500 ease-in-out">
+                                          Kontak
+                                   </a>
+                            </li>
+                            <li>
+                                   <a href="#contact"
+                                          class="block text-sm px-2 py-4 hover:bg-cyan-200 transition duration-500 ease-in-out">
+                                          Penjualan Karya
+                                   </a>
+                            </li>
+                     </ul>
+              </div>
+       </nav>
+
+       <!-- Banner -->
+       <div id="carouselExampleCrossfade"
+              class="carousel slide carousel-fade relative pt-16 lg:bg-cyan-500 lg:mt-5 pb-5" data-bs-ride="carousel">
+              <div class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-6 lg:mb-10">
+                     <button type="button" data-bs-target="#carouselExampleCrossfade" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                     <button type="button" data-bs-target="#carouselExampleCrossfade" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                     <button type="button" data-bs-target="#carouselExampleCrossfade" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner relative w-full overflow-hidden">
+                     <div class="carousel-item active float-left w-full">
+                            <img src="../../img/042.webp" class="block w-full" alt="Wild Landscape" />
+                     </div>
+                     <div class="carousel-item float-left w-full">
+                            <img src="../../img/043.webp" class="block w-full" alt="Camera" />
+                     </div>
+                     <div class="carousel-item float-left w-full">
+                            <img src="../../img/042.webp" class="block w-full" alt="Exotic Fruits" />
+                     </div>
+              </div>
+              <button class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
+                     type="button" data-bs-target="#carouselExampleCrossfade" data-bs-slide="prev">
+                     <span class="carousel-control-prev-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+                     <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
+                     type="button" data-bs-target="#carouselExampleCrossfade" data-bs-slide="next">
+                     <span class="carousel-control-next-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+                     <span class="visually-hidden">Next</span>
+              </button>
+       </div>
+       <!-- End Banner -->
+
+       <!-- team -->
+       <div class="flex flex-col items-center lg:py-6 border-b">
+              <ul class="flex overflow-x-auto">
+                     <li class="shrink-0 snap-x lg:px-10">
+                            <img class="px-8 md:h-20 lg:h-24 h-10" src="../../img/logoSobattb.png" alt="sobattb">
+                     </li>
+                     <li class="shrink-0 snap-x lg:px-10">
+                            <img class="px-8 md:h-20 lg:h-24 h-10" src="../../img/logoEndtb.png" alt="endtb">
+                     </li>
+                     <li class="shrink-0 snap-x lg:px-10">
+                            <img class="px-8 md:h-20 lg:h-24 h-10" src="../../img/logoKemenkes.png" alt="kemenkes">
+                     </li>
+                     <li class="shrink-0 snap-x lg:px-10">
+                            <img class="px-8 md:h-20 lg:h-24 h-10" src="../../img/logo-tosstb.png" alt="tosstb">
+                     </li>
+                     <li class="shrink-0 snap-x lg:px-10">
+                            <img class="px-8 md:h-20 lg:h-24 h-10" src="../../img/logogermas.png" alt="germas">
+                     </li>
+              </ul>
+       </div>
+       <!-- End Team -->
+
+       <!-- Tentang PETA -->
+       <div class="font-poppins pb-8 text-center border-b">
+              <h2 class="font-bold text-2xl md:text-4xl mt-10">Tentang PETA</h2>
+              <p class="flex md:px-40 px-5 lg:px-60 md:text-xl text-justify mt-5">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet nisi repellat placeat blanditiis
+                     enim vero! Voluptatibus quibusdam natus quidem nesciunt reprehenderit labore magnam in saepe dolore
+                     blanditiis similique, at officia quod doloribus iste error dolor debitis architecto aperiam,
+                     deleniti nulla dolores consequuntur placeat. Voluptatibus quas ullam laboriosam fuga et! Obcaecati.
+              </p>
+              <button class="text-cyan-500 rounded-md text-lg md:text-2xl font-semibold mt-5">Selengkapnya</button>
+              <iframe class="h-[12rem] w-[20rem] lg:w-[40rem] lg:h-[24rem] md:w-[25rem] md:h-[15rem] mx-auto mt-5 rounded-md shadow-lg"
+                     src="https://www.youtube.com/embed/r09z4a4V4xw" title="YouTube video player" frameborder="10"
+                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                     allowfullscreen>
+              </iframe>
+       </div>
+       <!-- END Tentang PETA -->
+
+       <!-- Container -->
+       <section class="font-poppins bg-gradient-to-b from-cyan-200 to-cyan-50 lg:w-11/12 py-10 border-y">
+              <div class="lg:flex flex-row">
+                     <img class="w-[20rem] md:w-[25rem] lg:w-[42rem] lg:h-[31rem] mx-auto shadow-2xl "
+                            src="../../img/uang.png" alt="Penjualan">
+                     <div class="mx-auto mt-4 text-center lg:mt-0 lg:text-left lg:mx-4">
+                            <p class="text-center lg:text-left font-semibold mt-5 lg:mt-0 text-2xl md:text-4xl">
+                                   Penjualan Karya
+                            </p>
+                            <P class="lg:text-left text-justify font-medium px-5 lg:px-0 md:px-40 md:text-xl mt-3">
+                                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad sequi molestias
+                                   consequuntur,
+                                   ratione alias provident quibusdam adipisci corrupti dolorem dolore nulla incidunt
+                                   eligendi
+                                   odit possimus officiis, qui harum, earum repellat?
+                            </P>
+                            <button
+                                   class="bg-slate-200 text-cyan-700 rounded-full text-lg px-5 py-1 md:text-2xl font-semibold mt-3">Selengkapnya</button>
+                     </div>
+              </div>
+              <div class="lg:flex flex-row pt-10 md:static">
+                     <img class="w-[20rem] lg:h-[31rem] mx-auto lg:absolute lg:w-[42rem] md:right-0 lg:right-0 shadow-2xl "
+                            src="../../img/diagram.png" alt="Penjualan">
+                     <div class="mx-auto mt-4 text-center lg:mt-0 lg:text-left lg:mx-4 lg:w-auto">
+                            <p class="text-center lg:text-left font-semibold mt-5 lg:mt-0 text-2xl md:text-4xl">
+                                   Baru
+                            </p>
+                            <P class="lg:text-left text-justify font-medium px-5 lg:px-0 md:px-40 md:text-xl mt-3">
+                                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque magni dolorum
+                                   accusantium nobis hic aut repellendus nulla. Incidunt, similique quibusdam officia
+                                   rerum eum tempore ipsa recusandae vitae asperiores dolorum nisi ex rem beatae
+                                   repellat exercitationem officiis harum. Ratione tempore, accusamus, dolores autem
+                                   beatae expedita, ad quia corporis cupiditate maiores illo!
+                            </P>
+                            <button
+                                   class="bg-slate-200 text-cyan-700 rounded-full text-lg px-5 py-1 md:text-2xl font-semibold mt-3">Selengkapnya</button>
+                     </div>
+                     <img class="hidden lg:block lg:w-[35rem] lg:h-[31rem] 2xl:w-[31rem] lg:ml-2"
+                            src="../../img/diagram.png" alt="Penjualan">
+              </div>
+       </section>
+       <!-- End Container -->
+
+       <!-- Artikel -->
+       <h2 class="font-poppins font-bold text-3xl md:text-4xl text-center py-10 border-t">Artikel</h2>
+       <div class="grid grid-cols-6 gap-6 md:px-10 px-3">
+              <div class="col-span-2 pl-10 text-justify font-normal">
+                     <div class="flex gap-3">
+                            <img src="../../img/artikel1.png" class="w-36 md:w-48 mb-5" alt="">
+                            <a class="hover:text-blue-700" href="">
+                                   <p class="hidden md:flex text-sm md:text-base">
+                                          Lorem ipsum dolor sit amet consectetur adipisicing.
+                                   </p>
+                            </a>
+                     </div>
+                     <div class="flex gap-3">
+                            <img src="../../img/artikel2.png" class="w-36 md:w-48 mb-5" alt="">
+                            <a class="hover:text-blue-700" href="">
+                                   <p class="hidden md:flex text-sm md:text-base">
+                                          Lorem ipsum dolor sit amet consectetur adipisicing.
+                                   </p>
+                            </a>
+                     </div>
+                     <div class="flex gap-3">
+                            <img src="../../img/artikel3.png" class="w-36 md:w-48 mb-5" alt="">
+                            <a class="hover:text-blue-700" href="">
+                                   <p class="hidden md:flex text-sm md:text-base">
+                                          Lorem ipsum dolor sit amet consectetur adipisicing.
+                                   </p>
+                            </a>
+                     </div>
+              </div>
+              <div class="col-span-4 pl-20 pr-10 text-justify">
+                     <img src="../../img/virus1.png" class="h-36 lg:h-96 md:h-80" alt="">
+                     <p class="font-normal text-xl"><a class="hover:text-blue-700" href="">
+                                   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum laborum amet delectus!
+                     </p></a>
+              </div>
+       </div>
+       <!-- END Artikel -->
+
+       <!-- Galeri -->
+       <div class="bg-gradient-to-b from-cyan-200 to-white font-poppins border-t">
+              <h2 class="font-bold text-2xl md:text-4xl text-center mt-10 pt-10 border-t">Galeri</h2>
+              <p class="flex justify-center font-medium text-center md:px-40 px-10 lg:px-60 md:text-xl mt-5">
+                     Galeri PETA, Lorem ipsum is a placeholder
+                     text commonly used to demonstrate the visual form of a document
+                     or a typeface without relying on meaningful content.
+              </p>
+              <div class="flex justify-around">
+                     <a class="bg-white text-cyan-500 rounded-full text-lg md:text-2xl font-medium px-5 py-1 mt-10 ml-5"
+                            href="../galeri/galeri.html">Selengkapnya</a>
+                     <!-- <button
+                            class="bg-white text-cyan-500 rounded-full text-lg md:text-2xl font-medium px-5 py-1 mt-10 ml-5">Selengkapnya</button> -->
+              </div>
+              <div class="flex justify-around mt-14 mb-20">
+                     <img src="../../img/FN3qX-zUYAIkj2S 1.png" class="w-24 md:w-56 lg:w-72" alt="">
+                     <img src="../../img/FNYeOrOaIAUV1A2 1.png" class="w-24 md:w-56 lg:w-72" alt="">
+                     <img src="../../img/FNz6qYbVkAIYBSU 1.png" class="w-24 md:w-56 lg:w-72" alt="">
+              </div>
+       </div>
+       <!-- END galeri -->
+
+       <!-- Footer -->
+       <footer class="bg-gray-200 py-5 md:flex justify-around font-poppins">
+              <div class="flex gap-2 justify-around">
+                     <a href="#"><img src="../../img/ig.png" class="w-5 md:h-6 md:pt-0" alt=""></a>
+                     <a href=""><img src="../../img/tiktok.png" class="w-5 md:h-6 md:pt-0" alt=""></a>
+                     <a href=""><img src="../../img/twiter.png" class="w-5 md:h-6 md:pt-0" alt=""></a>
+                     <a href=""><img src="../../img/linkedin.png" class="w-5 md:h-6 md:pt-0" alt=""></a>
+                     <a href=""><img src="../../img/fb.png" class="w-5 md:h-6 md:pt-0" alt=""></a>
+                     <a href=""><img src="../../img/youtube.png" class="w-5 md:h-6 md:pt-0" alt=""></a>
+              </div>
+              <p class="pt-4 md:pt-0 flex justify-around text-sm md:text-lg font-medium">
+                     &copy; 2022 Pejuang Tanggung PETA TB-RO
+              </p>
+              <div class="flex justify-center gap-2 font-medium">
+                     <img src="../../img/indo-icon.png" class="w-5" alt="">
+                     <p>Indonesia</p>
+              </div>
+       </footer>
+       <!-- END Footer -->
+
+
+       <script src="../../../node_modules/tw-elements/dist/js/index.min.js"></script>
+       <script src="../../js/main.js"></script>
+</body>
+
+</html>
