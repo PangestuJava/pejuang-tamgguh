@@ -14,30 +14,25 @@ function Menu(e) {
               list.classList.remove('opacity-100')
        )
 }
-// End navbar mobile
 
-// Get the button
-let mybutton = document.getElementById("btn-back-to-top");
+// klik img penjualan
+const allHoverImages = document.querySelectorAll('.hover-container div img');
+const imgContainer = document.querySelector('.img-container');
 
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function () {
-       scrollFunction();
-};
+window.addEventListener('DOMContentLoaded', () => {
+       allHoverImages[0].parentElement.classList.add('active');
+});
 
-function scrollFunction() {
-       if (
-              document.body.scrollTop > 20 ||
-              document.documentElement.scrollTop > 20
-       ) {
-              mybutton.style.display = "block";
-       } else {
-              mybutton.style.display = "none";
-       }
-}
-// When the user clicks on the button, scroll to the top of the document
-mybutton.addEventListener("click", backToTop);
+allHoverImages.forEach((image) => {
+       image.addEventListener('mouseover', () => {
+              imgContainer.querySelector('img').src = image.src;
+              resetActiveImg();
+              image.parentElement.classList.add('active');
+       });
+});
 
-function backToTop() {
-       document.body.scrollTop = 0;
-       document.documentElement.scrollTop = 0;
+function resetActiveImg() {
+       allHoverImages.forEach((img) => {
+              img.parentElement.classList.remove('active');
+       });
 }
