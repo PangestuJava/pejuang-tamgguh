@@ -13,5 +13,8 @@
   "dependencies": {
     "tailwindcss": "^3.0.23",
     "tw-elements": "^1.0.0-alpha11"
+  },
+  "devDependencies": {
+    "prettier-plugin-tailwindcss": "^0.1.11"
   }
 }

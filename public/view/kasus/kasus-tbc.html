@@ -16,81 +16,75 @@
        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
        <!-- swiper -->
        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-       <!-- <style>
-              * {
-                     border: 1px solid red;
-              }
-       </style> -->
        <title>Kasus TBC | PETA</title>
 </head>
 
 <body class="font-poppins">
        <!-- Navbar -->
-       <header class="bg-white absolute top-0 left-0 w-full flex items-center z-10">
+       <header class="absolute top-0 left-0 z-10 flex items-center w-full bg-white">
               <div class="container">
-                     <div class="flex items-center justify-between relative">
+                     <div class="relative flex items-center justify-between">
                             <div class="pr-2 md:pr-2">
                                    <img class="h-12 my-2" src="../../img/logoPeta.png" alt="logoPeta">
                             </div>
                             <div class="flex items-center">
                                    <button id="hamburger" name="hamburger" type="button"
-                                          class="block absolute right-2 top-3 lg:hidden">
-                                          <span class="hamburger-line transition 
-                                                                      duration-300 ease-in-out origin-top-left"></span>
-                                          <span class="hamburger-line transition 
-                                                               duration-300 ease-in-out"></span>
-                                          <span class="hamburger-line transition 
-                                                                      duration-300 ease-in-out origin-top-left"></span>
+                                          class="absolute block right-2 top-3 lg:hidden">
+                                          <span
+                                                 class="transition duration-300 ease-in-out origin-top-left hamburger-line"></span>
+                                          <span class="transition duration-300 ease-in-out hamburger-line"></span>
+                                          <span
+                                                 class="transition duration-300 ease-in-out origin-top-left hamburger-line"></span>
                                    </button>
 
                                    <nav id="nav-menu"
                                           class="hidden absolute py-3 bg-white shadow-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:left-4 lg:max-w-full lg:shadow-none lg:top-0">
-                                          <ul class="block lg:flex font-normal lg:items-center">
+                                          <ul class="block font-normal lg:flex lg:items-center">
                                                  <li class="grup">
                                                         <a href="../beranda/index.html"
-                                                               class="block mx-2 p-2 hover:bg-primary hover:rounded-lg">
+                                                               class="block p-2 mx-2 hover:bg-primary hover:rounded-lg">
                                                                Beranda
                                                         </a>
                                                  </li>
                                                  <li class="grup">
                                                         <a href="../peta/peta.html"
-                                                               class="block mx-2 p-2 hover:bg-primary hover:rounded-lg">
+                                                               class="block p-2 mx-2 hover:bg-primary hover:rounded-lg">
                                                                Tentang PETA
                                                         </a>
                                                  </li>
                                                  <li class="grup">
                                                         <a href="../tbc/tbc.html"
-                                                               class="block mx-2 p-2 hover:bg-primary hover:rounded-lg">
+                                                               class="block p-2 mx-2 hover:bg-primary hover:rounded-lg">
                                                                Info TBC
                                                         </a>
                                                  </li>
                                                  <li class="grup">
                                                         <a href="../kasus/kasus-tbc.html"
-                                                               class="block mx-2 p-2 hover:bg-primary hover:rounded-lg">
+                                                               class="block p-2 mx-2 hover:bg-primary hover:rounded-lg">
                                                                Kasus TBC
                                                         </a>
                                                  </li>
                                                  <li class="grup">
                                                         <a href="../artikel/artikel.html"
-                                                               class="block mx-2 p-2 hover:bg-primary hover:rounded-lg">
+                                                               class="block p-2 mx-2 hover:bg-primary hover:rounded-lg">
                                                                Artikel
                                                         </a>
                                                  </li>
                                                  <li class="grup">
                                                         <a href="../galeri/galeri.html"
-                                                               class="block mx-2 p-2 hover:bg-primary hover:rounded-lg">
+                                                               class="block p-2 mx-2 hover:bg-primary hover:rounded-lg">
                                                                Galeri
                                                         </a>
                                                  </li>
                                                  <li class="grup">
                                                         <a href="../kontak/kontak.html"
-                                                               class="block mx-2 p-2 hover:bg-primary hover:rounded-lg">
+                                                               class="block p-2 mx-2 hover:bg-primary hover:rounded-lg">
                                                                Kontak
                                                         </a>
                                                  </li>
                                                  <li class="grup">
                                                         <a href="../penjualan/penjualan.html"
-                                                               class="block text-white ml-2 p-3 bg-button hover:bg-primary rounded-lg">
+                                                               class="block p-3 ml-2 text-white rounded-lg bg-button hover:bg-primary">
                                                                Penjualan Karya
                                                         </a>
                                                  </li>
@@ -103,11 +97,11 @@
        <!-- End Navbar -->
 
        <!-- Banner -->
-       <section class="font-poppins pt-16 pb-20 lg:pb-20">
+       <section class="pt-16 pb-20 font-poppins lg:pb-20">
               <div class="relativ bg-cyan-500 w-11/12 pb-[10rem] md:grid md:grid-cols-2 md:pb-[5rem]">
-                     <div class="pb-7 md:pb-0 mx-4 text-white md:pr-2">
-                            <p class="font-semibold text-2xl md:text-4xl pt-8 lg:pt-20">Tantang PETA</p>
-                            <p class="font-semibold text-justify text-sm md:text-xl pt-4">
+                     <div class="mx-4 text-white pb-7 md:pb-0 md:pr-2">
+                            <p class="pt-8 text-2xl font-semibold md:text-4xl lg:pt-20">Tantang PETA</p>
+                            <p class="pt-4 text-sm font-semibold text-justify md:text-xl">
                                    Lorem ipsum dolor sit amet,
                                    consectetur
                                    adipisicing elit. Necessitatibus vero vel, ad
@@ -123,7 +117,7 @@
        <!-- End Banner -->
 
        <!--kasus-->
-       <div class="pt-2 relative mx-auto text-gray-600 flex justify-center mt-5">
+       <div class="relative flex justify-center pt-2 mx-auto mt-5 text-gray-600">
               <div class="flex justify-center">
                      <div class="mb-3 xl:w-96">
                             <select class="form-select appearance-none block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding bg-no-repeat border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
@@ -137,8 +131,8 @@
               </div>
               <div>
                      <button type="submit"
-                            class="absolute top-0 h-10 mt-2 md:h-10 rounded-md mr-4 bg-blue-300 px-4 py-4">
-                            <svg class="text-gray-600 h-4 w-4 md:h-4 md:w-4 fill-current"
+                            class="absolute top-0 h-10 px-4 py-4 mt-2 mr-4 bg-blue-300 rounded-md md:h-10">
+                            <svg class="w-4 h-4 text-gray-600 fill-current md:h-4 md:w-4"
                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                                    version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 56.966 56.966"
                                    style="enable-background:new 0 0 56.966 56.966;" xml:space="preserve" width="512px"
@@ -150,19 +144,19 @@
               </div>
        </div>
        <section class="border-t">
-              <div class="grid grid-cols-2 md:grid-cols-3 justify-items-center gap-3 px-5 py-10 md:mt-10 lg:mt-20">
+              <div class="grid grid-cols-2 gap-3 px-5 py-10 md:grid-cols-3 justify-items-center md:mt-10 lg:mt-20">
                      <div class="my-4">
                             <div class="flex justify-center">
-                                   <div class="rounded-lg shadow-lg bg-white max-w-sm">
+                                   <div class="max-w-sm bg-white rounded-lg shadow-lg">
                                           <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
                                                  <img class="rounded-t-lg"
                                                         src="https://mdbootstrap.com/img/new/standard/nature/182.jpg"
                                                         alt="" />
                                           </a>
                                           <div class="p-6">
-                                                 <h5 class="text-gray-900 text-xl font-medium mb-2">Kasus TB - RT/RW :
+                                                 <h5 class="mb-2 text-xl font-medium text-gray-900">Kasus TB - RT/RW :
                                                         01/02</h5>
-                                                 <p class="text-gray-700 text-base mb-4">
+                                                 <p class="mb-4 text-base text-gray-700">
                                                         Some quick example text to build on the card title and make up
                                                         the bulk of the card's
                                                         content.
@@ -175,15 +169,15 @@
                      </div>
                      <div class="my-4">
                             <div class="flex justify-center">
-                                   <div class="rounded-lg shadow-lg bg-white max-w-sm">
+                                   <div class="max-w-sm bg-white rounded-lg shadow-lg">
                                           <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
                                                  <img class="rounded-t-lg"
                                                         src="https://mdbootstrap.com/img/new/standard/nature/182.jpg"
                                                         alt="" />
                                           </a>
                                           <div class="p-6">
-                                                 <h5 class="text-gray-900 text-xl font-medium mb-2">Card title</h5>
-                                                 <p class="text-gray-700 text-base mb-4">
+                                                 <h5 class="mb-2 text-xl font-medium text-gray-900">Card title</h5>
+                                                 <p class="mb-4 text-base text-gray-700">
                                                         Some quick example text to build on the card title and make up
                                                         the bulk of the card's
                                                         content.
@@ -196,15 +190,15 @@
                      </div>
                      <div class="my-4">
                             <div class="flex justify-center">
-                                   <div class="rounded-lg shadow-lg bg-white max-w-sm">
+                                   <div class="max-w-sm bg-white rounded-lg shadow-lg">
                                           <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
                                                  <img class="rounded-t-lg"
                                                         src="https://mdbootstrap.com/img/new/standard/nature/182.jpg"
                                                         alt="" />
                                           </a>
                                           <div class="p-6">
-                                                 <h5 class="text-gray-900 text-xl font-medium mb-2">Card title</h5>
-                                                 <p class="text-gray-700 text-base mb-4">
+                                                 <h5 class="mb-2 text-xl font-medium text-gray-900">Card title</h5>
+                                                 <p class="mb-4 text-base text-gray-700">
                                                         Some quick example text to build on the card title and make up
                                                         the bulk of the card's
                                                         content.
@@ -217,15 +211,15 @@
                      </div>
                      <div class="my-4">
                             <div class="flex justify-center">
-                                   <div class="rounded-lg shadow-lg bg-white max-w-sm">
+                                   <div class="max-w-sm bg-white rounded-lg shadow-lg">
                                           <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
                                                  <img class="rounded-t-lg"
                                                         src="https://mdbootstrap.com/img/new/standard/nature/182.jpg"
                                                         alt="" />
                                           </a>
                                           <div class="p-6">
-                                                 <h5 class="text-gray-900 text-xl font-medium mb-2">Card title</h5>
-                                                 <p class="text-gray-700 text-base mb-4">
+                                                 <h5 class="mb-2 text-xl font-medium text-gray-900">Card title</h5>
+                                                 <p class="mb-4 text-base text-gray-700">
                                                         Some quick example text to build on the card title and make up
                                                         the bulk of the card's
                                                         content.
@@ -276,8 +270,8 @@
        </div>
 
        <!-- Footer -->
-       <footer class="bg-gray-200 py-5 md:flex justify-around font-poppins">
-              <div class="flex gap-2 justify-around">
+       <footer class="justify-around py-5 bg-gray-200 md:flex font-poppins">
+              <div class="flex justify-around gap-2">
                      <a href="#"><img src="../../img/ig.png" class="w-5 md:h-6 md:pt-0" alt=""></a>
                      <a href=""><img src="../../img/tiktok.png" class="w-5 md:h-6 md:pt-0" alt=""></a>
                      <a href=""><img src="../../img/twiter.png" class="w-5 md:h-6 md:pt-0" alt=""></a>
@@ -285,7 +279,7 @@
                      <a href=""><img src="../../img/fb.png" class="w-5 md:h-6 md:pt-0" alt=""></a>
                      <a href=""><img src="../../img/youtube.png" class="w-5 md:h-6 md:pt-0" alt=""></a>
               </div>
-              <p class="pt-4 md:pt-0 flex justify-around text-sm md:text-lg font-medium">
+              <p class="flex justify-around pt-4 text-sm font-medium md:pt-0 md:text-lg">
                      &copy; 2022 Pejuang Tanggung PETA TB-RO
               </p>
               <div class="flex justify-center gap-2 font-medium">
