@@ -3,8 +3,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "bookmark-cyan": "#26BEFF",
-        "bookmark-blue": "#2697FF"
+        "secondary": "#DEF5FF",
+        "primary": "#93CBFF",
+        "gradient": "#A5D8F0",
+        "button": "#2697FF"
       }
     },
     fontFamily: {
@@ -12,7 +14,7 @@ module.exports = {
     },
     container: {
       center: true,
-      padding: "0,75px",
+      padding: "0,75px"
     },
   },
   plugins: [

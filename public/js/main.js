@@ -1,19 +1,34 @@
-// button navbar mobile
-const btn = document.querySelector("button.mobile-menu-button");
-const menu = document.querySelector(".mobile-menu");
-btn.addEventListener("click", () => {
-       menu.classList.toggle("hidden");
+//active menu
+const activePage = window.location.pathname;
+const navLinks = document.querySelectorAll('nav a').
+       forEach(link => {
+              if (link.href.includes(`${activePage}`)) {
+                     link.classList.add('active-menu')
+              }
+       })
+
+
+//hamburger
+const hamburger = document.querySelector('#hamburger');
+const navMenu = document.querySelector('#nav-menu');
+
+hamburger.addEventListener('click', function () {
+       hamburger.classList.toggle('hamburger-active');
+       navMenu.classList.toggle('hidden');
 });
 
-function Menu(e) {
-       let list = document.querySelector('ul');
-       e.name === 'menu' ? (
-              e.name = "close", list.classList.add('top-[80px]'),
-              list.classList.add('opacity-100')) : (
-              e.name = "menu", list.classList.remove('top-[80px]'),
-              list.classList.remove('opacity-100')
-       )
+// navbar fixed
+window.onscroll = function () {
+       const header = document.querySelector('header');
+       const fixedNav = header.offsetTop;
+
+       if (window.pageYOffset > fixedNav) {
+              header.classList.add('navbar-fixed');
+       } else {
+              header.classList.remove('navbar-fixed');
+       }
 }
+
 
 // klik img penjualan
 const allHoverImages = document.querySelectorAll('.hover-container div img');
