@@ -4728,6 +4728,14 @@ textarea.form-control.is-invalid {
       scroll-snap-type: x var(--tw-scroll-snap-strictness);
 }
 
+.snap-mandatory {
+  --tw-scroll-snap-strictness: mandatory;
+}
+
+.snap-center {
+  scroll-snap-align: center;
+}
+
 .appearance-none {
   -webkit-appearance: none;
      -moz-appearance: none;
@@ -4814,12 +4822,32 @@ textarea.form-control.is-invalid {
   gap: 0.5rem;
 }
 
+.gap-6 {
+  gap: 1.5rem;
+}
+
 .gap-3 {
   gap: 0.75rem;
 }
 
 .gap-8 {
   gap: 2rem;
+}
+
+.gap-12 {
+  gap: 3rem;
+}
+
+.gap-16 {
+  gap: 4rem;
+}
+
+.gap-24 {
+  gap: 6rem;
+}
+
+.gap-36 {
+  gap: 9rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -5089,11 +5117,6 @@ textarea.form-control.is-invalid {
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
-}
-
-.px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem;
 }
 
 .px-5 {
@@ -5428,6 +5451,11 @@ textarea.form-control.is-invalid {
 .hamburger-active > span:nth-child(3) {
   --tw-rotate: -45deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.before\:shrink-0::before {
+  content: var(--tw-content);
+  flex-shrink: 0;
 }
 
 .hover\:rounded-lg:hover {
@@ -5952,6 +5980,18 @@ textarea.form-control.is-invalid {
     align-items: center;
   }
 
+  .lg\:gap-36 {
+    gap: 9rem;
+  }
+
+  .lg\:gap-44 {
+    gap: 11rem;
+  }
+
+  .lg\:gap-40 {
+    gap: 10rem;
+  }
+
   .lg\:bg-transparent {
     background-color: transparent;
   }
@@ -5966,11 +6006,6 @@ textarea.form-control.is-invalid {
     padding-bottom: 0.5rem;
   }
 
-  .lg\:px-10 {
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
-  }
-
   .lg\:px-0 {
     padding-left: 0px;
     padding-right: 0px;
@@ -5979,6 +6014,11 @@ textarea.form-control.is-invalid {
   .lg\:py-\[12rem\] {
     padding-top: 12rem;
     padding-bottom: 12rem;
+  }
+
+  .lg\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
   }
 
   .lg\:px-80 {
