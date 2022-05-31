@@ -7,6 +7,8 @@
        <meta name="viewport" content="width=device-width, initial-scale=1.0">
        <!-- TailwindCss -->
        <link rel="stylesheet" href="../../css/style.css">
+       <!-- AOS -->
+       <link href="../../../node_modules/aos/dist/aos.css" rel="stylesheet">
        <!-- Font Family -->
        <link rel="preconnect" href="https://fonts.googleapis.com">
        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,9 +26,9 @@
        <header class="absolute top-0 left-0 z-10 flex items-center w-full bg-white">
               <div class="container">
                      <div class="relative flex items-center justify-between">
-                            <div class="pr-2 md:pr-2">
+                            <a href="../beranda/index.html" class="pr-2 md:pr-2">
                                    <img class="h-12 my-2" src="../../img/logoPeta.png" alt="logoPeta">
-                            </div>
+                            </a>
                             <div class="flex items-center">
                                    <button id="hamburger" name="hamburger" type="button"
                                           class="absolute block right-2 top-3 lg:hidden">
@@ -167,6 +169,7 @@
        <!-- END Footer -->
 
 
+       <script src="../../../node_modules/aos/dist/aos.js"></script>
        <script src="../../../node_modules/tw-elements/dist/js/index.min.js"></script>
        <script src="../../js/main.js"></script>
 </body>

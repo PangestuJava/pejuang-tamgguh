@@ -1,3 +1,10 @@
+// Animate On Scroll
+AOS.init({
+       once: true,
+       offset: 300,
+       duration: 1000,
+});
+
 //active menu
 const activePage = window.location.pathname;
 const navLinks = document.querySelectorAll('nav a').

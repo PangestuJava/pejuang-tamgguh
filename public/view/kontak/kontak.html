@@ -7,20 +7,16 @@
        <meta name="viewport" content="width=device-width, initial-scale=1.0">
        <!-- TailwindCss -->
        <link rel="stylesheet" href="../../css/style.css">
+       <!-- AOS -->
+       <link href="../../../node_modules/aos/dist/aos.css" rel="stylesheet">
        <!-- Font Family -->
        <link rel="preconnect" href="https://fonts.googleapis.com">
        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
-       <!-- end Font Family -->
        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
        <!-- swiper -->
        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-       <!-- <style>
-              * {
-                     border: 1px solid red;
-              }
-       </style> -->
        <title>Kontak | PETA</title>
 </head>
 
@@ -29,9 +25,9 @@
        <header class="absolute top-0 left-0 z-10 flex items-center w-full bg-white">
               <div class="container">
                      <div class="relative flex items-center justify-between">
-                            <div class="pr-2 md:pr-2">
+                            <a href="../beranda/index.html" class="pr-2 md:pr-2">
                                    <img class="h-12 my-2" src="../../img/logoPeta.png" alt="logoPeta">
-                            </div>
+                            </a>
                             <div class="flex items-center">
                                    <button id="hamburger" name="hamburger" type="button"
                                           class="absolute block right-2 top-3 lg:hidden">
@@ -104,7 +100,7 @@
        <!--maps-->
        <section class="my-[6.5rem]">
               <div class="container">
-                     <div class="flex justify-around px-4 md:px-10">
+                     <div class="flex justify-around px-2 md:px-10">
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.4701117881355!2d106.87971801449308!3d-6.201544562477599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f4913d61cda3%3A0x18d16be0cb4077b3!2sPETA%20(Pejuang%20Tangguh)%20TB-RO%20Office!5e0!3m2!1sid!2sid!4v1653910619976!5m2!1sid!2sid"
                                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                                    class="w-full rounded-lg h-[29rem] md:h-[35rem] shadow-xl"
@@ -115,7 +111,13 @@
        <!-- End Maps -->
 
        <!-- Kontak -->
-       <div class="flex justify-center">
+       <div class="container">
+              <div class="flex justify-center">
+                     <h2 class="text-4xl font-bold text-center">Tentang PETA</h2>
+              </div>
+       </div>
+       <!-- End Kontak -->
+       <!-- <div class="flex justify-center">
               <div class="text-center">
                      <h2 class="text-lg font-semibold md:text-2xl">Alamat : Kantor PETA Pejuang Tanggung TB-RO</h2>
                      <p class="mx-10 text-lg text-center md:mx-40">Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -154,8 +156,7 @@
                      <button class="px-3 py-1 mb-10 text-white bg-blue-500 rounded-md text-md md:text-lg">Kirim
                             Pesan</button>
               </div>
-       </div>
-       <!-- End Kontak -->
+       </div> -->
 
        <footer class="justify-around bg-gray-200 py-7 md:flex">
               <div class="flex justify-around gap-2">
@@ -174,6 +175,8 @@
               </div>
        </footer>
 
+
+       <script src="../../../node_modules/aos/dist/aos.js"></script>
        <script src="../../../node_modules/tw-elements/dist/js/index.min.js"></script>
        <script src="../../js/main.js"></script>
 </body>

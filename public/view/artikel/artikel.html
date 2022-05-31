@@ -7,6 +7,8 @@
        <meta name="viewport" content="width=device-width, initial-scale=1.0">
        <!-- TailwindCss -->
        <link rel="stylesheet" href="../../css/style.css">
+       <!-- AOS -->
+       <link href="../../../node_modules/aos/dist/aos.css" rel="stylesheet">
        <!-- Font Family -->
        <link rel="preconnect" href="https://fonts.googleapis.com">
        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,9 +26,9 @@
        <header class="absolute top-0 left-0 z-10 flex items-center w-full bg-white">
               <div class="container">
                      <div class="relative flex items-center justify-between">
-                            <div class="pr-2 md:pr-2">
+                            <a href="../beranda/index.html" class="pr-2 md:pr-2">
                                    <img class="h-12 my-2" src="../../img/logoPeta.png" alt="logoPeta">
-                            </div>
+                            </a>
                             <div class="flex items-center">
                                    <button id="hamburger" name="hamburger" type="button"
                                           class="absolute block right-2 top-3 lg:hidden">
@@ -115,17 +117,16 @@
                                           </p>
                                    </div>
                             </div>
-                            <div class="grid justify-end col-auto lg:col-span-7 lg:col-start-7">
-                                   <div class="pt-9">
-                                          <img class="w-[20rem] md:w-[40rem] lg:w-full h-full rounded-xl shadow-xl"
-                                                 src="../../img/artikel-bg.png" alt="banner">
+                            <div class="grid justify-end col-auto lg:col-span-7 lg:col-start-7 pt-9">
+                                   <div class="w-[20rem] md:w-[40rem] lg:w-auto md:h-full rounded-xl shadow-xl">
+                                          <img class="rounded-xl h-[15rem] md:h-[30rem]" src="../../img/virus1.png"
+                                                 alt="banner">
                                    </div>
                             </div>
                             <div
                                    class="bg-primary overflow-hidden absolute top-0 w-[95%] lg:w-[70%] h-[85%] -z-10 rounded-sm">
                             </div>
                      </div>
-
               </div>
        </section>
        <!-- END Banner -->
@@ -160,9 +161,10 @@
                                                  class="flex flex-col bg-white rounded-lg shadow-lg lg:flex-row md:flex-col">
                                                  <img src="../../img/virus1.png"
                                                         class="w-full rounded-t-lg md:rounded-none md:h-[20rem] lg:w-[30rem]"
-                                                        alt="artike4">
+                                                        alt="artike4" data-aos="flip-up">
                                                  <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="black">
-                                                        <div class="flex flex-col justify-start p-6">
+                                                        <div class="flex flex-col justify-start p-6"
+                                                               data-aos="fade-up-right">
                                                                <h5 class="mb-2 text-2xl font-medium text-gray-900">
                                                                       Apapun Yang Dilakukan ORANG TUA SELALU
                                                                       BENAR</h5>
@@ -190,9 +192,10 @@
                                                  class="flex flex-col bg-white rounded-lg shadow-lg lg:flex-row md:flex-col">
                                                  <img src="../../img/virus1.png"
                                                         class="w-full rounded-t-lg md:rounded-none md:h-[20rem] lg:w-[30rem]"
-                                                        alt="artike4">
+                                                        alt="artike4" data-aos="flip-up">
                                                  <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="black">
-                                                        <div class="flex flex-col justify-start p-6">
+                                                        <div class="flex flex-col justify-start p-6"
+                                                               data-aos="fade-up-right">
                                                                <h5 class="mb-2 text-2xl font-medium text-gray-900">
                                                                       Apapun Yang Dilakukan ORANG TUA SELALU
                                                                       BENAR</h5>
@@ -220,9 +223,10 @@
                                                  class="flex flex-col bg-white rounded-lg shadow-lg lg:flex-row md:flex-col">
                                                  <img src="../../img/virus1.png"
                                                         class="w-full rounded-t-lg md:rounded-none md:h-[20rem] lg:w-[30rem]"
-                                                        alt="artike4">
+                                                        alt="artike4" data-aos="flip-up">
                                                  <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="black">
-                                                        <div class="flex flex-col justify-start p-6">
+                                                        <div class="flex flex-col justify-start p-6"
+                                                               data-aos="fade-up-right">
                                                                <h5 class="mb-2 text-2xl font-medium text-gray-900">
                                                                       Apapun Yang Dilakukan ORANG TUA SELALU
                                                                       BENAR</h5>
@@ -250,9 +254,10 @@
                                                  class="flex flex-col bg-white rounded-lg shadow-lg lg:flex-row md:flex-col">
                                                  <img src="../../img/virus1.png"
                                                         class="w-full rounded-t-lg md:rounded-none md:h-[20rem] lg:w-[30rem]"
-                                                        alt="artike4">
+                                                        alt="artike4" data-aos="flip-up">
                                                  <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="black">
-                                                        <div class="flex flex-col justify-start p-6">
+                                                        <div class="flex flex-col justify-start p-6"
+                                                               data-aos="fade-up-right">
                                                                <h5 class="mb-2 text-2xl font-medium text-gray-900">
                                                                       Apapun Yang Dilakukan ORANG TUA SELALU
                                                                       BENAR</h5>
@@ -334,6 +339,7 @@
        <!-- END Footer -->
 
 
+       <script src="../../../node_modules/aos/dist/aos.js"></script>
        <script src="../../../node_modules/tw-elements/dist/js/index.min.js"></script>
        <script src="../../js/main.js"></script>
 </body>
