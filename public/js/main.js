@@ -1,20 +1,3 @@
-// Animate On Scroll
-AOS.init({
-       once: true,
-       offset: 300,
-       duration: 1000,
-});
-
-//active menu
-const activePage = window.location.pathname;
-const navLinks = document.querySelectorAll('nav a').
-       forEach(link => {
-              if (link.href.includes(`${activePage}`)) {
-                     link.classList.add('active-menu')
-              }
-       })
-
-
 //hamburger
 const hamburger = document.querySelector('#hamburger');
 const navMenu = document.querySelector('#nav-menu');
@@ -44,6 +27,21 @@ window.onscroll = function () {
        }
 }
 
+// Animate On Scroll
+AOS.init({
+       once: true,
+       offset: 300,
+       duration: 1000,
+});
+
+//active menu
+const activePage = window.location.pathname;
+const navLinks = document.querySelectorAll('nav a').
+       forEach(link => {
+              if (link.href.includes(`${activePage}`)) {
+                     link.classList.add('active-menu')
+              }
+       })
 
 // klik img penjualan
 const allHoverImages = document.querySelectorAll('.hover-container div img');
