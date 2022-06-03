@@ -18,6 +18,7 @@
        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
        <!-- swiper -->
        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+       <script src="https://cdn.tailwindcss.com"></script>
        <title>Beranda | PETA</title>
 </head>
 
@@ -201,47 +202,54 @@
        <!-- END Tentang PETA -->
 
        <!-- Konten Karya dan TB -->
-       <section class="font-poppins bg-gradient-to-b from-secondary to-primary lg:w-11/12 py-10 border-y" data-aos="fade-right">
-              <div class="lg:flex flex-row pt-10 md:relative">
-                     <img class="w-[42rem] md:w-[32rem] lg:w-[42rem] lg:h-[31rem] mx-auto shadow-xl "
-                            src="../../img/uang.png" data-aos="fade-right" alt="Penjualan">
-                     <div class="mt-5 text-left sm:text-left lg:mt-8 lg:text-left px-5 md:px-10 lg:mx-10">
-                            <p class="text-left lg:text-left font-semibold mt-5 px-5 md:px-10 lg:px-10 lg:mt-0 text-2xl md:text-4xl"
-                            data-aos="fade-right">
-                                   Penjualan Karya
+       <section class="bg-gradient-to-b from-cyan-100 to-teal-50 lg:w-11/12 py-10 relative border-y" data-aos="fade-right">
+              <!-- Content #1 -->
+              <div class="flex flex-1 flex-col-reverse relative lg:flex-row items-start gap-12 mt-3 lg lg:mt-3">
+                     <!--image Content --> 
+                     <div class="flex justify-start flex-4 mb-10 md:mb-10 lg:items-start lg:mb-0 z-10">
+                            <img class="w-[34rem] lg:w-[44rem] lg:h-[28rem] mx-auto shadow-2xl md:w-full md:h-full" src="../../img/uang.png" alt="Penjualan Karya">
+                     </div>       
+                     <!---Content -->
+                     <div class="flex flex-1 flex-col text-lg text-left px-4 pr-4 md:px-2 mt-3 lg:mx-1 lg:items-start">
+                            <h2 class="Penjualan-karya font-semibold text-4xl md:text-4xl lg:text-4xl text-left mb-3">
+                                   Penjualan karya
+                            </h2>
+                            <p class="Penjualan-karya text-lg md:text-1xl text-left lg:text-left mb-1">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet nisi repellat placeat blanditiis
+                            enim vero! Voluptatibus quibusdam natus quidem nesciunt reprehenderit labore magnam in saepe dolore
+                            blanditiis similique, at officia quod doloribus iste error dolor debitis architecto aperiam,
+                            deleniti nulla dolores consequuntur placeat. Voluptatibus quas ullam laboriosam fuga et! Obcaecati.
                             </p>
-                            <P class="text-left lg:text-left text-base font-poppins px-5 lg:px-10 md:px-10 md:text-xl mt-4 mb-5"
-                            data-aos="fade-right">
-                                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad sequi molestias
-                                   consequuntur,
-                                   ratione alias provident quibusdam adipisci corrupti dolorem dolore nulla incidunt
-                                   eligendi
-                                   odit possimus officiis, qui harum, earum repellat?
-                            </P>
-                            <a href ="#" class="bg-button text-white rounded-full text-lg px-3 text-left lg:text-center py-1 md:left-10 md:text-xl font-semibold mt-10
-                            hover:opacity-80 hover:bg-blue-500 transition duration-300 ease-in-out" data-aos="fade-left" >Selengkapnya</a>
+                     <div class="flex justify-start flex-wrap gap-6">
+                            <button type="button" class="bg-white text-cyan-500 rounded-full text-lg px-5 py-1 md:text-xl font-semibold mt-2">Selengkapnya</button>
                      </div>
               </div>
-              <div class="lg:flex flex-row pt-10 md:relative">
-                     <img class="w-[42rem] md:w-[32rem] lg:h-[42rem] mx-auto lg:w-[42rem] md:right-0 pr-8 lg:right-0 shadow-xl "
-                            src="../../img/diagram.png" data-aos="fade-right" alt="Penjualan">
-                     <div class="mt-5 text-right lg:mt-8 lg:text-right sm:text-right px-5 md:px-10 lg:mx-10 ">
-                            <p class="text-right lg:text-right font-semibold mt-5 px-5 md:px-10 lg:px-10 lg:mt-0 text-2xl md:text-4xl"
-                            data-aos="fade-right">
-                                   Kasus TBC
-                            </p>
-                            <P class="text-right lg:text-right text-base font-poppins px-5 lg:px-10 md:px-10 md:text-xl mt-4 mb-5"
-                            data-aos="fade-right">
-                                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque magni dolorum
-                                   accusantium nobis hic aut repellendus nulla. Incidunt, similique quibusdam officia
-                                   rerum eum tempore ipsa recusandae vitae asperiores dolorum nisi ex rem beatae
-                                   repellat exercitationem officiis harum. Ratione tempore, accusamus, dolores autem
-                                   beatae expedita, ad quia corporis cupiditate maiores illo!
-                            </P>
-                            <a href ="#" class="bg-button text-white rounded-full text-right lg:text-center text-lg px-3 py-1 md:left-10 md:text-xl font-semibold mt-10
-                            hover:opacity-80 hover:bg-blue-500 transition duration-300 ease-in-out " data-aos="fade-left">Selengkapnya</a>
+       </div>
+              <!-- Content #2 -->
+              <div class="relative">
+                     <div class="flex flex-1 flex-col-reverse relative lg:flex-row gap-6 items-end">
+                            <div class="flex flex-4 justify-end lg:items-end z-10 mb-3 lg:mb-0 mt-3 md:mt-3">
+                                   <img class="w-[34rem] lg:w-[44rem] lg:h-[28rem] mx-auto shadow-2xl md:w-full md:h-full" src="../../img/diagram.png" alt="">
+                            </div>  
+                            <!-- content -->
+                            <div class="flex flex-1 flex-col text-lg items-end lg:items-end px-4 pr-4 md:px-2 lg:mx-1">
+                                          <h2 class="text-4xl font-semibold md:text-4xl lg:text-4xl text-right mb-3">
+                                          Kasus TBC
+                                          </h2>
+                                          <p class="text-lg md:text-1xl text-right lg:text-right mb-3">
+                                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet nisi repellat placeat blanditiis
+                                          enim vero! Voluptatibus quibusdam natus quidem nesciunt reprehenderit labore magnam in saepe dolore
+                                          blanditiis similique, at officia quod doloribus iste error dolor debitis architecto aperiam,
+                                          deleniti nulla dolores consequuntur placeat. Voluptatibus quas ullam laboriosam fuga et! Obcaecati.
+                                          </p>
+                                   <div class="flex justify-end flex-warp gap-6">
+                                          <button type="button" class="bg-white text-cyan-500 rounded-full text-lg px-5 py-1 md:text-xl font-semibold mt-2">Selengkapnya</button>
+                                   </div>
+                            <!-- image -->     
+                            </div>
                      </div>
               </div>
+       <div>              
        </section>
        <!-- End Konten Karya dan TB -->
 
@@ -250,7 +258,7 @@
               <div class="container">
                      <h2 class="text-4xl font-bold text-center">Artikel</h2>
                      <div class="grid gap-4 mt-8 lg:grid-cols-10">
-                            <div class="p-6 md:p-0 lg:col-span-6 lg:col-start-6">
+                            <div class="p-6 md:p-0 lg:col-span-6 lg:col-start-5">
                                    <div class="flex justify-right">
                                           <div class="bg-white rounded-lg shadow-xl" data-aos="fade-right">
                                                  <img src="../../img/virus1.png"
@@ -279,7 +287,7 @@
                                    </div>
                             </div>
                             <div class="p-6 md:p-0 lg:col-span-4 lg:col-start-1 lg:row-start-1">
-                                   <div class="flex justify-center mb-7">
+                                   <div class="flex justify-center mb-8">
                                           <div class="bg-white rounded-lg shadow-lg md:flex lg:flex-col md:flex-row"
                                                  data-aos="fade-right">
                                                  <div class="md:flex">
@@ -305,7 +313,7 @@
                                                  </div>
                                           </div>
                                    </div>
-                                   <div class="flex justify-center mb-4">
+                                   <div class="flex justify-center mb-8">
                                           <div class="bg-white rounded-lg shadow-lg md:flex lg:flex-col md:flex-row"
                                                  data-aos="fade-right">
                                                  <div class="md:flex">
@@ -331,7 +339,7 @@
                                                  </div>
                                           </div>
                                    </div>
-                                   <div class="flex justify-center mb-4">
+                                   <div class="flex justify-center mb-8">
                                           <div class="bg-white rounded-lg shadow-lg md:flex lg:flex-col md:flex-row"
                                                  data-aos="fade-right">
                                                  <div class="md:flex">
@@ -363,7 +371,7 @@
        <!-- END Artikel -->
 
        <!-- Galeri -->
-       <section class="bg-gradient-to-b from-secondary to-secondary">
+       <section class="bg-gradient-to-b from-cyan-100 to-teal-100">
               <div class="container">
                      <div class="px-5">
                             <h2 class="pt-10 mt-10 text-2xl font-bold text-center border-t md:text-4xl">Galeri</h2>
@@ -374,7 +382,7 @@
                                    or a typeface without relying on meaningful content.
                             </p>
                             <div class="flex justify-around">
-                                   <a class="px-5 py-1 mt-5 ml-5 text-lg font-medium text-white rounded-full bg-button md:text-2xl"
+                                   <a class="px-5 py-1 mt-5 ml-5 text-lg font-medium text-cyan-500 rounded-full bg-white md:text-2xl"
                                           href="../galeri/galeri.html">Selengkapnya</a>
                             </div>
                             <div

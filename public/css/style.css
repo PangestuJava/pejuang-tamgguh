@@ -1107,6 +1107,14 @@ textarea.form-control.is-invalid {
   box-shadow: none;
 }
 
+.btn{
+  @apply shadow-md py-3 px-6 rounded-md transition duration-300;
+}
+
+.btn-blue{
+  @apply bg-white text-cyan-300; 
+}
+
 .fade {
   transition: opacity 0.15s linear;
 }
