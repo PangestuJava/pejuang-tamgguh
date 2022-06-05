@@ -5,8 +5,8 @@ module.exports = {
       colors: {
         "secondary": "#DEF5FF",
         "primary": "#93CBFF",
-        "Green":"#86efac",
-        "whitegreen":"#a7f3d0",
+        "Green": "#86efac",
+        "whitegreen": "#a7f3d0",
         "gradient": "#A5D8F0",
         "button": "#2697FF"
       }
