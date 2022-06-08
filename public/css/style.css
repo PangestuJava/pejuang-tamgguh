@@ -4538,6 +4538,11 @@ textarea.form-control.is-invalid {
   margin-bottom: 0.75rem;
 }
 
+.my-\[102px\] {
+  margin-top: 102px;
+  margin-bottom: 102px;
+}
+
 .ml-2 {
   margin-left: 0.5rem;
 }
@@ -4652,6 +4657,10 @@ textarea.form-control.is-invalid {
 
 .mb-11 {
   margin-bottom: 2.75rem;
+}
+
+.mt-\[102px\] {
+  margin-top: 102px;
 }
 
 .box-content {
@@ -4836,6 +4845,22 @@ textarea.form-control.is-invalid {
 
 .w-44 {
   width: 11rem;
+}
+
+.w-\[80rem\] {
+  width: 80rem;
+}
+
+.w-\[60rem\] {
+  width: 60rem;
+}
+
+.w-1\/2 {
+  width: 50%;
+}
+
+.w-\[40rem\] {
+  width: 40rem;
 }
 
 .min-w-0 {
@@ -6476,6 +6501,18 @@ textarea.form-control.is-invalid {
 
   .lg\:w-\[50rem\] {
     width: 50rem;
+  }
+
+  .lg\:w-\[42rem\] {
+    width: 42rem;
+  }
+
+  .lg\:w-\[43rem\] {
+    width: 43rem;
+  }
+
+  .lg\:w-\[42\.5rem\] {
+    width: 42.5rem;
   }
 
   .lg\:max-w-full {
