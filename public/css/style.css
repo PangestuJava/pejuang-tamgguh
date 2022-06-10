@@ -4447,10 +4447,6 @@ textarea.form-control.is-invalid {
   grid-column: span 12 / span 12;
 }
 
-.col-span-11 {
-  grid-column: span 11 / span 11;
-}
-
 .col-start-1 {
   grid-column-start: 1;
 }
@@ -4516,14 +4512,14 @@ textarea.form-control.is-invalid {
   margin-bottom: 1.75rem;
 }
 
-.my-\[102px\] {
-  margin-top: 102px;
-  margin-bottom: 102px;
-}
-
 .my-3 {
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
+}
+
+.my-\[102px\] {
+  margin-top: 102px;
+  margin-bottom: 102px;
 }
 
 .ml-2 {
@@ -4630,44 +4626,8 @@ textarea.form-control.is-invalid {
   margin-top: 1.5rem;
 }
 
-.mb-40 {
-  margin-bottom: 10rem;
-}
-
-.mb-32 {
-  margin-bottom: 8rem;
-}
-
-.mb-14 {
-  margin-bottom: 3.5rem;
-}
-
-.ml-3 {
-  margin-left: 0.75rem;
-}
-
-.ml-6 {
-  margin-left: 1.5rem;
-}
-
 .ml-9 {
   margin-left: 2.25rem;
-}
-
-.ml-11 {
-  margin-left: 2.75rem;
-}
-
-.ml-10 {
-  margin-left: 2.5rem;
-}
-
-.mb-60 {
-  margin-bottom: 15rem;
-}
-
-.mr-1 {
-  margin-right: 0.25rem;
 }
 
 .mr-0\.5 {
@@ -4676,6 +4636,10 @@ textarea.form-control.is-invalid {
 
 .mr-0 {
   margin-right: 0px;
+}
+
+.mb-14 {
+  margin-bottom: 3.5rem;
 }
 
 .box-content {
@@ -4760,10 +4724,6 @@ textarea.form-control.is-invalid {
 
 .h-48 {
   height: 12rem;
-}
-
-.h-36 {
-  height: 9rem;
 }
 
 .h-\[20rem\] {
@@ -4918,6 +4878,10 @@ textarea.form-control.is-invalid {
   flex-wrap: wrap;
 }
 
+.place-content-center {
+  place-content: center;
+}
+
 .place-items-center {
   place-items: center;
 }
@@ -4970,6 +4934,10 @@ textarea.form-control.is-invalid {
   justify-items: center;
 }
 
+.justify-items-stretch {
+  justify-items: stretch;
+}
+
 .gap-4 {
   gap: 1rem;
 }
@@ -4994,8 +4962,24 @@ textarea.form-control.is-invalid {
   gap: 2.25rem;
 }
 
+.gap-10 {
+  gap: 2.5rem;
+}
+
+.gap-7 {
+  gap: 1.75rem;
+}
+
 .place-self-center {
   place-self: center;
+}
+
+.justify-self-auto {
+  justify-self: auto;
+}
+
+.justify-self-center {
+  justify-self: center;
 }
 
 .overflow-hidden {
@@ -5160,6 +5144,11 @@ textarea.form-control.is-invalid {
 .bg-blue-600 {
   --tw-bg-opacity: 1;
   background-color: rgb(37 99 235 / var(--tw-bg-opacity));
+}
+
+.bg-cyan-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(14 116 144 / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-b {
@@ -5377,20 +5366,16 @@ textarea.form-control.is-invalid {
   padding-bottom: 231px;
 }
 
+.pb-4 {
+  padding-bottom: 1rem;
+}
+
 .pb-2 {
   padding-bottom: 0.5rem;
 }
 
 .pr-0 {
   padding-right: 0px;
-}
-
-.pl-3 {
-  padding-left: 0.75rem;
-}
-
-.pb-4 {
-  padding-bottom: 1rem;
 }
 
 .text-left {
@@ -5653,29 +5638,15 @@ textarea.form-control.is-invalid {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.before\:w-\[30vw\]::before {
-  content: var(--tw-content);
-  width: 30vw;
-}
-
-.before\:shrink-0::before {
-  content: var(--tw-content);
-  flex-shrink: 0;
-}
-
-.after\:w-\[30vw\]::after {
-  content: var(--tw-content);
-  width: 30vw;
-}
-
-.after\:shrink-0::after {
-  content: var(--tw-content);
-  flex-shrink: 0;
-}
-
 .hover\:scale-125:hover {
   --tw-scale-x: 1.25;
   --tw-scale-y: 1.25;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.hover\:scale-150:hover {
+  --tw-scale-x: 1.5;
+  --tw-scale-y: 1.5;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -5693,9 +5664,57 @@ textarea.form-control.is-invalid {
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-cyan-700:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(14 116 144 / var(--tw-bg-opacity));
+}
+
 .hover\:bg-blue-700:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(29 78 216 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-cyan-900:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(22 78 99 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-white:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-black:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-gradient-to-b:hover {
+  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+}
+
+.hover\:from-primary:hover {
+  --tw-gradient-from: #93CBFF;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(147 203 255 / 0));
+}
+
+.hover\:to-white:hover {
+  --tw-gradient-to: #fff;
+}
+
+.hover\:py-2:hover {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.hover\:py-6:hover {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.hover\:px-4:hover {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .hover\:text-gray-800:hover {
@@ -5716,6 +5735,10 @@ textarea.form-control.is-invalid {
 .hover\:no-underline:hover {
   -webkit-text-decoration-line: none;
           text-decoration-line: none;
+}
+
+.hover\:opacity-80:hover {
+  opacity: 0.8;
 }
 
 .hover\:opacity-75:hover {
@@ -5910,6 +5933,14 @@ textarea.form-control.is-invalid {
     grid-column: span 6 / span 6;
   }
 
+  .md\:col-span-2 {
+    grid-column: span 2 / span 2;
+  }
+
+  .md\:col-span-1 {
+    grid-column: span 1 / span 1;
+  }
+
   .md\:col-start-2 {
     grid-column-start: 2;
   }
@@ -5941,6 +5972,10 @@ textarea.form-control.is-invalid {
     margin-top: 0.5rem;
   }
 
+  .md\:mb-60 {
+    margin-bottom: 15rem;
+  }
+
   .md\:mb-14 {
     margin-bottom: 3.5rem;
   }
@@ -5949,20 +5984,12 @@ textarea.form-control.is-invalid {
     margin-top: 1rem;
   }
 
-  .md\:mb-60 {
-    margin-bottom: 15rem;
-  }
-
   .md\:block {
     display: block;
   }
 
   .md\:flex {
     display: flex;
-  }
-
-  .md\:hidden {
-    display: none;
   }
 
   .md\:h-full {
@@ -6005,10 +6032,6 @@ textarea.form-control.is-invalid {
     height: 2.75rem;
   }
 
-  .md\:h-48 {
-    height: 12rem;
-  }
-
   .md\:w-\[40rem\] {
     width: 40rem;
   }
@@ -6047,6 +6070,14 @@ textarea.form-control.is-invalid {
 
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .md\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .md\:grid-rows-2 {
+    grid-template-rows: repeat(2, minmax(0, 1fr));
   }
 
   .md\:flex-row {
@@ -6255,10 +6286,6 @@ textarea.form-control.is-invalid {
 
   .lg\:mt-5 {
     margin-top: 1.25rem;
-  }
-
-  .lg\:ml-0 {
-    margin-left: 0px;
   }
 
   .lg\:block {
