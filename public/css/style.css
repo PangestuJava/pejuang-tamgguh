@@ -4730,6 +4730,18 @@ textarea.form-control.is-invalid {
   height: 20rem;
 }
 
+.h-\[18rem\] {
+  height: 18rem;
+}
+
+.h-\[16rem\] {
+  height: 16rem;
+}
+
+.h-\[14rem\] {
+  height: 14rem;
+}
+
 .w-full {
   width: 100%;
 }
@@ -4788,6 +4800,14 @@ textarea.form-control.is-invalid {
 
 .w-60 {
   width: 15rem;
+}
+
+.w-\[25rem\] {
+  width: 25rem;
+}
+
+.w-\[23rem\] {
+  width: 23rem;
 }
 
 .min-w-0 {
@@ -4996,6 +5016,14 @@ textarea.form-control.is-invalid {
 
 .overflow-x-hidden {
   overflow-x: hidden;
+}
+
+.whitespace-pre {
+  white-space: pre;
+}
+
+.whitespace-pre-line {
+  white-space: pre-line;
 }
 
 .rounded-lg {
@@ -5924,6 +5952,57 @@ textarea.form-control.is-invalid {
   }
 }
 
+@media (min-width: 640px) {
+  .sm\:mx-16 {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+
+  .sm\:h-14 {
+    height: 3.5rem;
+  }
+
+  .sm\:h-16 {
+    height: 4rem;
+  }
+
+  .sm\:h-\[20rem\] {
+    height: 20rem;
+  }
+
+  .sm\:h-\[27rem\] {
+    height: 27rem;
+  }
+
+  .sm\:h-\[17rem\] {
+    height: 17rem;
+  }
+
+  .sm\:h-\[25rem\] {
+    height: 25rem;
+  }
+
+  .sm\:w-\[15rem\] {
+    width: 15rem;
+  }
+
+  .sm\:w-\[20rem\] {
+    width: 20rem;
+  }
+
+  .sm\:w-\[30rem\] {
+    width: 30rem;
+  }
+
+  .sm\:w-\[34rem\] {
+    width: 34rem;
+  }
+
+  .sm\:w-\[27rem\] {
+    width: 27rem;
+  }
+}
+
 @media (min-width: 768px) {
   .md\:col-span-10 {
     grid-column: span 10 / span 10;
@@ -5958,6 +6037,31 @@ textarea.form-control.is-invalid {
   .md\:mx-28 {
     margin-left: 7rem;
     margin-right: 7rem;
+  }
+
+  .md\:mx-8 {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  .md\:mx-16 {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+
+  .md\:mx-24 {
+    margin-left: 6rem;
+    margin-right: 6rem;
+  }
+
+  .md\:mx-20 {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+
+  .md\:mx-12 {
+    margin-left: 3rem;
+    margin-right: 3rem;
   }
 
   .md\:mb-7 {
@@ -6030,6 +6134,10 @@ textarea.form-control.is-invalid {
 
   .md\:h-11 {
     height: 2.75rem;
+  }
+
+  .md\:h-44 {
+    height: 11rem;
   }
 
   .md\:w-\[40rem\] {
@@ -6272,6 +6380,41 @@ textarea.form-control.is-invalid {
     margin-right: 9rem;
   }
 
+  .lg\:mx-28 {
+    margin-left: 7rem;
+    margin-right: 7rem;
+  }
+
+  .lg\:mx-\[250px\] {
+    margin-left: 250px;
+    margin-right: 250px;
+  }
+
+  .lg\:mx-\[300px\] {
+    margin-left: 300px;
+    margin-right: 300px;
+  }
+
+  .lg\:mx-\[400px\] {
+    margin-left: 400px;
+    margin-right: 400px;
+  }
+
+  .lg\:mx-\[170px\] {
+    margin-left: 170px;
+    margin-right: 170px;
+  }
+
+  .lg\:mx-\[17rem\] {
+    margin-left: 17rem;
+    margin-right: 17rem;
+  }
+
+  .lg\:mx-\[14rem\] {
+    margin-left: 14rem;
+    margin-right: 14rem;
+  }
+
   .lg\:mb-9 {
     margin-bottom: 2.25rem;
   }
@@ -6286,6 +6429,18 @@ textarea.form-control.is-invalid {
 
   .lg\:mt-5 {
     margin-top: 1.25rem;
+  }
+
+  .lg\:mb-12 {
+    margin-bottom: 3rem;
+  }
+
+  .lg\:mb-10 {
+    margin-bottom: 2.5rem;
+  }
+
+  .lg\:mb-8 {
+    margin-bottom: 2rem;
   }
 
   .lg\:block {
@@ -6332,6 +6487,14 @@ textarea.form-control.is-invalid {
     height: 100%;
   }
 
+  .lg\:h-\[24rem\] {
+    height: 24rem;
+  }
+
+  .lg\:h-\[23rem\] {
+    height: 23rem;
+  }
+
   .lg\:w-auto {
     width: auto;
   }
@@ -6362,6 +6525,18 @@ textarea.form-control.is-invalid {
 
   .lg\:w-\[42\.5rem\] {
     width: 42.5rem;
+  }
+
+  .lg\:w-\[40rem\] {
+    width: 40rem;
+  }
+
+  .lg\:w-\[39rem\] {
+    width: 39rem;
+  }
+
+  .lg\:w-\[38rem\] {
+    width: 38rem;
   }
 
   .lg\:max-w-full {
@@ -6453,8 +6628,55 @@ textarea.form-control.is-invalid {
 }
 
 @media (min-width: 1280px) {
+  .xl\:mx-56 {
+    margin-left: 14rem;
+    margin-right: 14rem;
+  }
+
+  .xl\:mx-52 {
+    margin-left: 13rem;
+    margin-right: 13rem;
+  }
+
+  .xl\:mx-44 {
+    margin-left: 11rem;
+    margin-right: 11rem;
+  }
+
+  .xl\:mx-40 {
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+
+  .xl\:mx-36 {
+    margin-left: 9rem;
+    margin-right: 9rem;
+  }
+
+  .xl\:mx-\[350px\] {
+    margin-left: 350px;
+    margin-right: 350px;
+  }
+
+  .xl\:mx-\[21rem\] {
+    margin-left: 21rem;
+    margin-right: 21rem;
+  }
+
+  .xl\:mb-10 {
+    margin-bottom: 2.5rem;
+  }
+
   .xl\:h-24 {
     height: 6rem;
+  }
+
+  .xl\:h-\[30rem\] {
+    height: 30rem;
+  }
+
+  .xl\:h-full {
+    height: 100%;
   }
 
   .xl\:w-96 {
@@ -6463,6 +6685,15 @@ textarea.form-control.is-invalid {
 
   .xl\:w-36 {
     width: 9rem;
+  }
+
+  .xl\:w-\[50rem\] {
+    width: 50rem;
+  }
+
+  .xl\:px-56 {
+    padding-left: 14rem;
+    padding-right: 14rem;
   }
 }
 
@@ -6505,7 +6736,19 @@ textarea.form-control.is-invalid {
     }
   }
 
+  .\32xl\:mb-8 {
+    margin-bottom: 2rem;
+  }
+
+  .\32xl\:mb-6 {
+    margin-bottom: 1.5rem;
+  }
+
   .\32xl\:w-\[67\%\] {
     width: 67%;
+  }
+
+  .\32xl\:w-\[50\%\] {
+    width: 50%;
   }
 }
